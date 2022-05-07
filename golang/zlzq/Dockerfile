@@ -1,4 +1,4 @@
-FROM golang:1.15.5-buster
+FROM golang:1.18.1-buster
 
 ENV GOPROXY https://goproxy.cn,direct
 ENV GO111MODULE on
